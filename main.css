@@ -1,0 +1,293 @@
+/* General */
+
+body {
+  font-family: 'Montserrat', 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', 'Montserrat', sans-serif;
+  font-weight: 600;
+  }
+  
+.background-color-rplus {
+  background-color: #0db872;
+}
+
+.text-color-rplus {
+  color: #0db872;
+}
+
+.page-header {
+  background-color: white;
+  color: #343a40;
+  text-align: center;
+  margin-top: 80px;
+  height: 250px;
+}
+
+.overflow-hidden{
+  overflow: hidden;
+}
+
+/* Navbar */
+
+#topbar-home {
+  background-color: transparent;
+  font-weight: 600;
+  text-align: right;
+}
+
+#topbar-home.not-top-page {
+  background-color: white;
+}
+
+#topbar {
+  background-color: white;
+  font-weight: 600;
+}
+
+#navbarCollapse .navbar-menu-home {
+  color: white;
+}
+
+#navbarCollapse .navbar-menu-home.not-top-page {
+  color: #343a40;
+}
+
+#navbarCollapse .navbar-menu {
+  color: #343a40;
+}
+
+
+/* Jumbotron */
+
+#jumbotron-portada {
+  background-image:  url("fotos/portada.png");
+  background-size: cover;
+}
+
+#jumbotron-portada h1 {
+  color: white;
+  text-align: left;
+  font-weight: 900;
+  margin-top: 4em;
+}
+
+#jumbotron-portada p {
+  text-align: left;
+  color: white; 
+  font-size: 32px;
+}
+
+#jumbotron-blog {
+  background-color:#ffde92;
+  margin-top: 60px;
+}
+
+#jumbotron-blog .btn {
+  border-color: #ffb300;
+  border-width: 1.5px;
+  color: #ffb300;
+}
+
+/* Featurettes
+------------------------- */
+
+.featurette {
+  padding: 2em;
+  margin-right: 0;
+}
+
+#featurette-home-1 {
+  background-color: white;
+}
+
+#featurette-home-2 {
+  background-color: #0db872;
+}
+
+#featurette-home-3 {
+  background-color: #acd6c4;
+}
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+
+.featurette-heading {
+  line-height: 1;
+  letter-spacing: -.05rem;
+  font-size: 48px;
+}
+
+.featurette img {
+  display: block; 
+  margin-left: auto; 
+  margin-right: auto;
+  width: 300px;
+}
+
+
+.row-empresas {
+  padding: 3em;
+  text-align: center;
+  margin-right: 0;
+}
+
+.row-empresas img {
+  display: block;
+  margin-left: auto; 
+  margin-right: auto; 
+  width: 200px;
+}
+
+#row-empresas-1 {
+  background-color: #acd6c4;
+}
+
+#row-empresas-2 {
+  background-color: #fdf1d4;
+}
+
+.colaboradores-logos {
+  max-height: 100px; 
+  max-width: 80%;
+}
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 4rem;
+  }
+
+  .featurette img {
+    width: 500px;
+  }
+}
+
+
+/* stylelint-disable selector-list-comma-newline-after */
+
+.blog-header {
+  line-height: 1;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.blog-header-logo {
+  font-size: 2.25rem;
+}
+
+.blog-header-logo:hover {
+  text-decoration: none;
+}
+
+.display-4 {
+  font-size: 2.5rem;
+}
+@media (min-width: 768px) {
+  .display-4 {
+    font-size: 3rem;
+  }
+}
+
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+.nav-scroller .nav-link {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  font-size: .875rem;
+}
+
+.card-img-right {
+  height: 100%;
+  border-radius: 0 3px 3px 0;
+}
+
+.flex-auto {
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+}
+
+.h-250 { height: 250px; }
+@media (min-width: 768px) {
+  .h-md-250 { height: 250px; }
+}
+
+/* Pagination */
+.blog-pagination {
+  margin-bottom: 4rem;
+}
+.blog-pagination > .btn {
+  border-radius: 2rem;
+}
+
+/*
+ * Blog posts
+ */
+.blog-post {
+  margin-bottom: 4rem;
+  font-size: 16px;
+}
+.blog-post-title {
+  margin-bottom: .5rem;
+  font-size: 48px;
+}
+
+.blog-post-meta {
+  margin-bottom: 1.25rem;
+  color: #999;
+}
+
+/*
+ * Footer
+ */
+.blog-footer {
+  padding: 2.5rem 0;
+  color: #999;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-top: .05rem solid #e5e5e5;
+}
+.blog-footer p:last-child {
+  margin-bottom: 0;
+}
+
+
+/*
+ * Extra utilities
+ */
+
+ .flex-equal > * {
+  -ms-flex: 1;
+  flex: 1;
+}
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    -ms-flex: 1;
+    flex: 1;
+  }
+}
