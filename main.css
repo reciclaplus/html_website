@@ -82,14 +82,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #jumbotron-blog {
-  background-color:#ffde92;
+  background-color:#acd6c4;
   margin-top: 60px;
 }
 
 #jumbotron-blog .btn {
-  border-color: #ffb300;
+  border-color: #0db872;
   border-width: 1.5px;
-  color: #ffb300;
+  color: #0db872;
 }
 
 /* Featurettes
