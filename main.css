@@ -74,6 +74,12 @@ h1, h2, h3, h4, h5, h6 {
   background-size: cover;
 }
 
+@media screen and (max-width: 600px) {
+  #jumbotron-portada {
+    background-position: center;
+  }
+}
+
 #jumbotron-portada h1 {
   color: white;
   text-align: left;
