@@ -25,6 +25,7 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
   margin-top: 80px;
   margin-bottom: 50px;
+  position: relative;
   /* height: 400px; */
 }
 
@@ -194,24 +195,29 @@ h1, h2, h3, h4, h5, h6 {
   max-height: 80%;
   max-width: 80%;
   margin: 10px 20px 20px;
+  /* display: block; */
 }
 
 
 .card {
   width: 100%;
   height: 100%;
-  transition: transform 2s;
+  /* perspective: 100%; */
+  transition: transform 1s;
   transform-style: preserve-3d;
   cursor: pointer;
   background-color: inherit;
   border: unset;
+  /* backface-visibility: hidden; */
 }
 
 .front, .back {
   width: 100%;
   height: 100%;
+  margin-top: 1em;
+  margin-bottom: 1em;
   position: absolute;
-  display: flex;
+  display: block;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -221,6 +227,13 @@ h1, h2, h3, h4, h5, h6 {
 .back {
   transform: rotateY(180deg);
 }
+
+.container-capacitaciones {
+  height: 400px;
+  overflow: hidden;
+  text-align: center;
+}
+
 
 
 /* RESPONSIVE CSS
