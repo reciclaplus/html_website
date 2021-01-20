@@ -13,44 +13,50 @@
 </head>
 
 <body id="bootstrap-overrides">
-
-<!-- Nav Bar with Image and text -->
-<nav class="navbar navbar-expand-md fixed-top navbar-light" id="topbar-home">
-  <a class="navbar-brand" href="index.html">
-    <img id="logo-home" src="fotos/logo_blanc.png" height="60" alt="" loading="lazy">
-  </a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarCollapse">
-    <ul class="navbar-nav ml-auto">
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle navbar-menu-home" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Recogida municipal
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="sabana-yegua.html" >Sabana Yegua</a>
-          <a class="dropdown-item" href="#">Proyecto 4 <img src="fotos/ComingSoon-text2.gif"  height="30"></a>
-        </div>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link navbar-menu-home" href="empresas.html">Empresas</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link navbar-menu-home" href="escuelas.html">Escuelas</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link navbar-menu-home" href="capacitaciones.html">Capacitaciones</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link navbar-menu-home" href="colaboradores.html">Colaboradores</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link navbar-menu-home" href="blog.html">Blog</a>
-      </li>
-    </ul>
-  </div>
-</nav>
+  
+  <!-- Nav Bar with Image and text -->
+  <nav class="navbar navbar-expand-lg fixed-top navbar-light" id="topbar-home">
+    <a class="navbar-brand" href="index.html">
+      <img id="logo-home" src="fotos/logo_blanc.png" height="60" alt="" loading="lazy">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link navbar-menu-home" href="about.html">Qué es R+?</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle navbar-menu-home" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Recogida municipal
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="sabana-yegua.html" >Sabana Yegua</a>
+            <a class="dropdown-item" href="#">Proyecto 4 <img src="fotos/ComingSoon-text2.gif"  height="30"></a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link navbar-menu-home" href="empresas.html">Empresas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link navbar-menu-home" href="escuelas.html">Escuelas</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle navbar-menu-home" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Educación Ambiental
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="capacitaciones.html" >Capacitaciones y talleres</a>
+            <a class="dropdown-item" href="eventos.html">Eventos</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link navbar-menu-home" href="blog.html">Blog</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 
 <div class="jumbotron jumbotron-fluid" id="jumbotron-portada">
   <div class="container">
@@ -99,7 +105,7 @@
 </div><!-- /.container -->
 </div><!-- /.container -->
 
-<footer class="footer p-5">
+<footer class="footer p-5 overflow-hidden">
   <div class="row">
     <div class="col-md-3 my-1">
       <p><img src="fotos/location.png" alt="" height="30">
@@ -115,8 +121,8 @@
     <div class="col-md-3 my-1">
       <h6>Síguenos en:</h6>
       <p>
-        <img src="fotos/instagram.png" alt="" height="30" style="margin-right: 10px;"><a href="https://www.instagram.com/reciclaplus.rd/">@reciclaplus.rd</a><br>
-        <img src="fotos/twitter.png" alt="" height="30" style="margin-right: 10px;"><a href="https://twitter.com/reciclaplus">@reciclaplus</a>
+        <img src="fotos/instagram.png" alt="" height="30" class="mr-1"><a href="https://www.instagram.com/reciclaplus.rd/">@reciclaplus.rd</a><br>
+        <img src="fotos/twitter.png" alt="" height="30" class="mr-1"><a href="https://twitter.com/reciclaplus">@reciclaplus</a>
       </p>
         
     </div>
@@ -124,10 +130,10 @@
     <div class="col-md-3 my-1">  
       <h6><a class="stretched-link" href="colaboradores.html" >Colaboran:</a></h6>
       <p>
-        <img src="fotos/nous camins.png" alt="" height="30" style="margin-bottom: 10px;"><br>
-        <img src="fotos/Alstom-Foundation.png" alt="" height="30" style="margin-bottom: 10px;"><br>
-        <img src="fotos/AMB.png" alt="" height="30" style="margin-bottom: 10px;"><br>
-        <img src="fotos/ajuntament_sant_cugat.png" alt="" height="30"><br>
+        <img src="fotos/nous camins.png" alt="" height="30" class="mb-1"><br>
+        <img src="fotos/Alstom-Foundation.png" alt="" height="30" class="mb-1"><br>
+        <img src="fotos/AMB.png" alt="" height="30" class="mb-1"><br>
+        <img src="fotos/ajuntament_sant_cugat.png" alt="" height="30" class="mb-1"><br>
         <img src="fotos/syc.png" alt="" height="30">
       </p>
    

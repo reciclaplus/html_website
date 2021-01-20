@@ -15,7 +15,7 @@
 <body>
 
   <!-- Nav Bar with Image and text -->
-  <nav class="navbar navbar-expand-md fixed-top navbar-light" id="topbar">
+  <nav class="navbar navbar-expand-lg fixed-top navbar-light" id="topbar">
     <a class="navbar-brand" href="index.html">
       <img id="logo-home" src="fotos/logo.png" height="60" alt="" loading="lazy">
     </a>
@@ -24,6 +24,9 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarCollapse">
       <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link navbar-menu" href="about.html">Qué es R+?</a>
+        </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle navbar-menu" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Recogida municipal
@@ -39,11 +42,14 @@
         <li class="nav-item">
           <a class="nav-link navbar-menu" href="escuelas.html">Escuelas</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link navbar-menu" href="capacitaciones.html">Capacitaciones</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link navbar-menu nav-item-highlight" href="colaboradores.html">Colaboradores</a>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle navbar-menu" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Educación Ambiental
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="capacitaciones.html" >Capacitaciones y talleres</a>
+            <a class="dropdown-item" href="eventos.html">Eventos</a>
+          </div>
         </li>
         <li class="nav-item">
           <a class="nav-link navbar-menu" href="blog.html">Blog</a>
@@ -129,7 +135,7 @@
 </div>
 
 
-<footer class="footer p-5">
+<footer class="footer p-5 overflow-hidden">
   <div class="row">
     <div class="col-md-3 my-1">
       <p><img src="fotos/location.png" alt="" height="30">

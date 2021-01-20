@@ -15,7 +15,7 @@
 <body>
 
   <!-- Nav Bar with Image and text -->
-  <nav class="navbar navbar-expand-md fixed-top navbar-light" id="topbar">
+  <nav class="navbar navbar-expand-lg fixed-top navbar-light" id="topbar">
     <a class="navbar-brand" href="index.html">
       <img id="logo-home" src="fotos/logo.png" height="60" alt="" loading="lazy">
     </a>
@@ -24,6 +24,9 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarCollapse">
       <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link navbar-menu" href="about.html">Qué es R+?</a>
+        </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle navbar-menu" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Recogida municipal
@@ -39,11 +42,14 @@
         <li class="nav-item">
           <a class="nav-link navbar-menu" href="escuelas.html">Escuelas</a>
         </li>
-        <li class="nav-item nav-item-highlight">
-          <a class="nav-link navbar-menu" href="capacitaciones.html">Capacitaciones</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link navbar-menu" href="colaboradores.html">Colaboradores</a>
+        <li class="nav-item dropdown nav-item-highlight">
+          <a class="nav-link dropdown-toggle navbar-menu" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Educación Ambiental
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="capacitaciones.html" >Capacitaciones y talleres</a>
+            <a class="dropdown-item" href="eventos.html">Eventos</a>
+          </div>
         </li>
         <li class="nav-item">
           <a class="nav-link navbar-menu" href="blog.html">Blog</a>
@@ -57,69 +63,69 @@
     <div class="col-md-12 mx-auto my-5">
       <h1 class="display-4">Capacitaciones</h1>
       <p class="lead">¿Quieres empezar a reciclar y no sabes cómo?</p>
-      <a class="btn btn-secondary" href="#">¡Contáctanos!</a>
+      <a class="btn btn-secondary" href="mailto: reciclaplus.rd@gmail.com">¡Contáctanos!</a>
     </div>
   </div>
 
   <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-    <div class="mr-md-3 pt-2 px-2 pt-md-4 px-md-4 text-black container-capacitaciones" style="background-color: #acd6c4;">
+    <div class="mr-md-3 pt-2 px-2 pt-lg-4 px-lg-4 text-black container-capacitaciones" style="background-color: #acd6c4;">
       <div class="card" onclick="flip(event)">
         <div class="front">
           <div class="my-1 py-1">
             <h2 class="display-5"> Taller 1</h2>
-            <p class="lead">And an even wittier subheading.</p>
+            <p class="lead">El rol de los maestros en la educación ambiental </p>
           </div>
-          <img src="fotos/capacitacion2.jpg" alt="" class="capacitaciones-img">
+          <div class="my-3 mx-auto">
+            <img src="fotos/capacitacion2.jpg" alt="" class="capacitaciones-img">
+          </div>
         </div>
-        <div class="back">
-          <div class="my-1 py-1">
-            <p class="lead">
-              Descripción: <br>
-              Duración: X minutes <br>
-              Audiencia: Niños
-            </p>
+        <div class="back text-left">
+          <div class="px-lg-3">
+            <p>Descripción: Capacitación a los docentes para el diseño, planificación, gestión e implantación de proyectos de educación ambiental en el aula y en el centro educativo </p>
+            <p> Duración: 1-2h </p>
+            <p> Audiencia: Maestros de Educación inicial y primaria </p>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="mr-md-3 pt-2 px-2 pt-md-4 px-md-4 text-white container-capacitaciones" style="background-color: #0db872;">
+    <div class="mr-md-3 pt-2 px-2 pt-lg-4 px-lg-4 text-white container-capacitaciones" style="background-color: #0db872;">
       <div class="card" onclick="flip(event)">
         <div class="front">
           <div class="my-1 py-1">
             <h2 class="display-5"> Taller 2</h2>
-            <p class="lead">And an even wittier subheading.</p>
+            <p class="lead">¡Bajo del mar!</p>
           </div>
-          <img src="fotos/capacitacion2.jpg" alt="" class="capacitaciones-img">
+          <div class="my-3 mx-auto">
+            <img src="fotos/capacitacion2.jpg" alt="" class="capacitaciones-img">
+          </div>
         </div>
-        <div class="back">
-          <div class="my-1 py-1">
-            <p class="lead">
-              Descripción: <br>
-              Duración: X minutes <br>
-              Audiencia: Niños
-            </p>
+        <div class="back text-left">
+          <div class="px-lg-3">
+            <p> Descripción: Aprender sobre el medio ambiente y sobre la importancia de prevenir, mitigar y restaurar los efectos negativos de nuestra actividad en el ambiente.</p>
+            <p> Duración: 1-2h </p>
+            <p> Audiencia: Educación inicial y primaria </p>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="mr-md-3 pt-2 px-2 pt-md-4 px-md-4 text-black container-capacitaciones" style="background-color: #fdf1d4;">
+    <div class="mr-md-3 pt-2 px-2 pt-lg-4 px-lg-4 text-black container-capacitaciones" style="background-color: #fdf1d4;">
       <div class="card" onclick="flip(event)">
         <div class="front">
           <div class="my-1 py-1">
             <h2 class="display-5"> Taller 3</h2>
-            <p class="lead">And an even wittier subheading.</p>
+            <p class="lead">Nosotros reciclamos, ¿y tú?</p>
           </div>
-          <img src="fotos/capacitacion2.jpg" alt="" class="capacitaciones-img">
+          <div class="my-3 mx-auto">
+            <img src="fotos/capacitacion2.jpg" alt="" class="capacitaciones-img">
+          </div>
         </div>
-        <div class="back">
-          <div class="my-1 py-1">
-            <p class="lead">
-              Descripción: <br>
-              Duración: X minutes <br>
-              Audiencia: Niños
-            </p>
+        <div class="back text-left">
+          <div class="px-lg-3">
+            <p> Descripción: Aprender a reciclar bien los residuos que todos podemos encontrar a diario en nuestras casas.</p>
+            <p> Duración: 1-2h </p>
+            <p> Audiencia: Educación inicial y primaria / Negocios / Comunidades (adultos) </p>
           </div>
         </div>
       </div>
@@ -129,64 +135,64 @@
   
   <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
 
-    <div class="mr-md-3 pt-2 px-2 pt-md-4 px-md-4 text-white container-capacitaciones" style="background-color: rgb(54, 54, 54);">
+    <div class="mr-md-3 pt-2 px-2 pt-lg-4 px-lg-4 text-white container-capacitaciones" style="background-color: rgb(54, 54, 54);">
       <div class="card" onclick="flip(event)">
         <div class="front">
           <div class="my-1 py-1">
             <h2 class="display-5"> Taller 4</h2>
-            <p class="lead">And an even wittier subheading.</p>
+            <p class="lead">Feria de juguetes</p>
           </div>
-          <img src="fotos/capacitacion2.jpg" alt="" class="capacitaciones-img">
+          <div class="my-3 mx-auto">
+            <img src="fotos/capacitacion2.jpg" alt="" class="capacitaciones-img">
+          </div>
         </div>
-        <div class="back">
-          <div class="my-1 py-1">
-            <p class="lead">
-              Descripción: <br>
-              Duración: X minutes <br>
-              Audiencia: Niños
-            </p>
+        <div class="back text-left">
+          <div class="px-lg-3">
+            <p> Descripción: Enseñar a reutilizar, de forma autónoma y creativa, todo tipo de materiales para alargar la vida útil de los objetos.</p>
+            <p> Duración: 2h </p>
+            <p> Audiencia: Educación inicial y primaria / Comunidades  </p>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="mr-md-3 pt-2 px-2 pt-md-4 px-md-4 text-center container-capacitaciones" style="background-color: rgb(255, 195, 223);">
+    <div class="mr-md-3 pt-2 px-2 pt-lg-4 px-lg-4 text-center container-capacitaciones" style="background-color: rgb(255, 195, 223);">
       <div class="card" onclick="flip(event)">
         <div class="front">
           <div class="my-1 py-1">
             <h2 class="display-5"> Taller 5</h2>
-            <p class="lead">And an even wittier subheading.</p>
+            <p class="lead">El rincón de la creatividad</p>
           </div>
-          <img src="fotos/capacitacion2.jpg" alt="" class="capacitaciones-img">
+          <div class="my-3 mx-auto">
+            <img src="fotos/capacitacion2.jpg" alt="" class="capacitaciones-img">
+          </div>
         </div>
-        <div class="back">
-          <div class="my-1 py-1">
-            <p class="lead">
-              Descripción: <br>
-              Duración: X minutes <br>
-              Audiencia: Niños
-            </p>
+        <div class="back text-left">
+          <div class="px-lg-3">
+            <p> Descripción: Enseñar a reutilizar, de forma autónoma y creativa, todo tipo de materiales para alargar la vida útil de los objetos. Ej. Talleres de macetero con latas recicladas o bolsas de la compra con camisetas viejas.</p>
+            <p> Duración: 2h </p>
+            <p> Audiencia: Comunidades </p>
           </div>
         </div>
       </div>
     </div>
     
-    <div class="mr-md-3 pt-2 px-2 pt-md-4 px-md-4 text-black container-capacitaciones" style="background-color: rgb(193, 212, 255);">
+    <div class="mr-md-3 pt-2 px-2 pt-lg-4 px-lg-4 text-black container-capacitaciones" style="background-color: rgb(193, 212, 255);">
       <div class="card" onclick="flip(event)">
         <div class="front">
           <div class="my-1 py-1">
             <h2 class="display-5"> Taller 6</h2>
-            <p class="lead">And an even wittier subheading.</p>
+            <p class="lead">El árbol de los propósitos</p>
           </div>
-          <img src="fotos/capacitacion2.jpg" alt="" class="capacitaciones-img">
+          <div class="my-3 mx-auto">
+            <img src="fotos/capacitacion2.jpg" alt="" class="capacitaciones-img">
+          </div>
         </div>
-        <div class="back">
-          <div class="my-1 py-1">
-            <p class="lead">
-              Descripción: <br>
-              Duración: X minutes <br>
-              Audiencia: Niños
-            </p>
+        <div class="back text-left">
+          <div class="px-lg-3">
+            <p> Descripción: Estrategias para la reducción de envases y residuos plásticos en tu negocio o casa.</p>
+            <p> Duración: 1-2h </p>
+            <p> Audiencia: Negocios / Comunidades (adultos) </p>
           </div>
         </div>
       </div>
@@ -195,7 +201,7 @@
   </div>
 
 
-  <footer class="footer p-5">
+  <footer class="footer p-5 overflow-hidden">
     <div class="row">
       <div class="col-md-3 my-1">
         <p><img src="fotos/location.png" alt="" height="30">
