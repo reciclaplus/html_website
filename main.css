@@ -37,6 +37,10 @@ strong {
   font-weight: bold;
 }
 
+.round-border {
+  border-radius: 20px;
+}
+
 /* Navbar */
 
 #topbar-home {
