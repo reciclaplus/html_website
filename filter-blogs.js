@@ -1,6 +1,6 @@
 function create_element() {
 
-    var url = "http://myjson.dit.upm.es/api/bins/1fmq"
+    var url = "https://reciclaplus.github.io/blog-posts/all-blogs.json"
     fetch(url)
     .then(response => response.json())
     .then(data => {
@@ -28,7 +28,7 @@ function create_element() {
 
         var link = document.createElement("a");
         textCol.appendChild(link).className = "stretched-link";
-        link.href = "blog_posts/" + post.year + "/" + post.month + "/" + post.filename + "/" + post.filename + ".html"
+        link.href = "blog-posts/" + post.year + "/" + post.month + "/" + post.filename + "/" + post.filename + ".html"
         link.innerHTML = "Continua leyendo"
 
         var imgCol = document.createElement("div");
@@ -61,12 +61,7 @@ function filter_blog_posts (selection) {
     console.log(all_posts)
     console.log(all_posts.length)
 
-    for (i = 0; i < all_posts.length; i++) {
-        console.log("Im still here")
-    }
-
     for (post of all_posts) {
-        console.log(post)
         if (selection != "all"){
             if (post.classList.contains(selection)){
                 
