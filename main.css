@@ -241,7 +241,9 @@ strong {
   text-align: center;
 }
 
-
+.cursor-pointer {
+  cursor: pointer;
+}
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */

@@ -65,7 +65,7 @@
       </ul>
     </div>
   </nav>
-  
+
   <div class="jumbotron p-4 p-md-5 text-black rounded" id="jumbotron-blog">
     <div class="container row">
     <div class="col-md-6 pt-3">
@@ -80,6 +80,18 @@
   </div>
   </div>
 
+  <div class="container nav-scroller py-1 mb-2">
+    <nav class="nav d-flex">
+      <a class="p-2 text-muted cursor-pointer" href="" onclick="filter_blogs('all', 'Todos los blogs')">Todo</a>
+      <a class="p-2 text-muted cursor-pointer" onclick="filter_blogs('proyecto', 'Recicla%2b')" style="cursor: pointer;">Recicla+</a>
+      <a class="p-2 text-muted cursor-pointer" href="#">Cambio Climático</a>
+      <a class="p-2 text-muted cursor-pointer" href="#">Educación Ambiental</a>
+      <a class="p-2 text-muted cursor-pointer" href="#">Visitas</a>
+      <a class="p-2 text-muted cursor-pointer" href="#">República Dominicana</a>
+      <a class="p-2 text-muted cursor-pointer" href="#">EcoConsejos</a>
+    </nav>
+  </div>
+
   <div class="container">
   <div class="row mb-2">
     <div class="col-md-6">
@@ -89,7 +101,7 @@
           <h3 class="mb-0">Economía circular</h3>
           <div class="mb-1 text-muted">14 de enero de 2021</div>
           <p class="card-text mb-auto">¿Qué es la economía circular? En este post te damos una pequeña introducción.</p>
-          <a href="blog_posts\2021\01\economia_circular\economia-circular.html" class="stretched-link mt-2">Continúa leyendo</a>
+          <a href="blog_posts\2021\01\economia-circular\economia-circular.html" class="stretched-link mt-2">Continúa leyendo</a>
         </div>
         <div class="col-auto d-none d-lg-block h-md-250">
           <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
@@ -191,7 +203,8 @@
 </footer>
 
 <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="go-to-blogs.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>

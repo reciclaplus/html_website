@@ -1,0 +1,128 @@
+<!DOCTYPE html lang="es">
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Recicla+</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    <link rel="icon" type="image/gif/png" href="fotos/logo_petit.png">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa|Montserrat|Work+Sans|Open+Sans" rel="stylesheet">
+
+</head>
+<body>
+
+  <!-- Nav Bar with Image and text -->
+  <!-- Nav Bar with Image and text -->
+<nav class="navbar navbar-expand-md fixed-top navbar-light" id="topbar">
+  <a class="navbar-brand" href="index.html">
+    <img id="logo-home" src="fotos/logo.png" height="60" alt="" loading="lazy">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarCollapse">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle navbar-menu" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Recogida municipal
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="sabana-yegua.html" >Sabana Yegua</a>
+          <a class="dropdown-item" href="#">Proyecto 4 <img src="fotos/ComingSoon-text2.gif"  height="30"></a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link navbar-menu" href="empresas.html">Empresas</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link navbar-menu" href="escuelas.html">Escuelas</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link navbar-menu" href="capacitaciones.html">Capacitaciones</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link navbar-menu" href="colaboradores.html">Colaboradores</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link navbar-menu" href="about.html">Qué es R+?</a>
+      </li>
+      <li class="nav-item nav-item-highlight">
+        <a class="nav-link navbar-menu" href="blog.html">Blog</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
+<div class="container page-header">
+  <div class="mx-auto pt-5">
+    <h1 class="display-4" id="page-title">Todos los blogs</h1>
+  </div>
+</div>
+
+<div id="main" class="container col-lg-6">
+
+  <div class="container m-1">  
+    <div class="dropdown my-5">  
+        <button type="button" class="btn btn-outline-dark dropdown-toggle" data-toggle="dropdown">  
+            Temática
+        </button>  
+        <div class="dropdown-menu">  
+            <a class="dropdown-item" onclick="filter_blogs('all', 'Todos los blogs')"> Todo </a>  
+            <a class="dropdown-item" onclick="filter_blogs('proyecto', 'Recicla%2b')"> Recicla+ </a>  
+            <a class="dropdown-item" href="#"> Educación Ambiental </a> 
+        </div>  
+    </div>  
+  </div>
+
+</div>
+
+<footer class="footer p-5 overflow-hidden">
+  <div class="row">
+    <div class="col-md-3 my-1">
+      <p><img src="fotos/location.png" alt="" height="30">
+      <a href="https://www.google.com/maps/place/Sabana+Yegua+71000,+Rep%C3%BAblica+Dominicana/@18.4606403,-70.8405734,15z/data=!3m1!4b1!4m5!3m4!1s0x8eba98b6e3b3202f:0xe4ab2c4383f09f87!8m2!3d18.4606012!4d-70.8328063"> 
+      Sabana Yegua, Azua, República Dominicana <br>
+      71000</a>
+    </div>
+    <div class="col-md-3 my-1">
+      <h6>Email</h6>
+      <p>reciclaplus.rd@gmail.com</p>  
+    </div>
+
+    <div class="col-md-3 my-1">
+      <h6>Síguenos en:</h6>
+      <p>
+        <img src="fotos/instagram.png" alt="" height="30" style="margin-right: 10px;"><a href="https://www.instagram.com/reciclaplus.rd/">@reciclaplus.rd</a><br>
+        <img src="fotos/twitter.png" alt="" height="30" style="margin-right: 10px;"><a href="https://twitter.com/reciclaplus">@reciclaplus</a>
+      </p>
+        
+    </div>
+
+    <div class="col-md-3 my-1">  
+      <h6><a class="stretched-link" href="colaboradores.html" >Colaboran:</a></h6>
+      <p>
+        <img src="fotos/nous camins.png" alt="" height="30" style="margin-bottom: 10px;"><br>
+        <img src="fotos/Alstom-Foundation.png" alt="" height="30" style="margin-bottom: 10px;"><br>
+        <img src="fotos/AMB.png" alt="" height="30" style="margin-bottom: 10px;"><br>
+        <img src="fotos/ajuntament_sant_cugat.png" alt="" height="30"><br>
+        <img src="fotos/syc.png" alt="" height="30">
+      </p>
+   
+    </div>
+
+  </div>
+
+</footer>
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+  
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="filter-blogs.js"></script>
+<script src="go-to-blogs.js"></script>
+</body>
+</html>
