@@ -35,7 +35,7 @@ function create_element() {
         row.appendChild(imgCol).className = "col-lg-4 my-auto";
 
         var img = document.createElement("img");
-        img.src = "fotos/" + post.img;
+        img.src = post.img;
         img.style.maxWidth = "100%";
         imgCol.appendChild(img);
         }
