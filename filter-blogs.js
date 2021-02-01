@@ -58,8 +58,6 @@ function set_title(title){
 function filter_blog_posts (selection) {
 
     var all_posts = document.getElementsByClassName("blog-post-item");
-    console.log(all_posts)
-    console.log(all_posts.length)
 
     for (post of all_posts) {
         if (selection != "all"){
