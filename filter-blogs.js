@@ -8,7 +8,7 @@ function create_element() {
 
         var main = document.getElementById("main");
         var row = document.createElement("div");
-        main.appendChild(row).className = "row m-1 my-3 border rounded shadow-sm blog-post-item " + post.tags.join(" ");
+        main.appendChild(row).className = "row m-1 my-3 border rounded shadow-sm blog-post-item " + post.tags.join(" ") + " " + post.month + "-" + post.year;
         var textCol = document.createElement("div");
         row.appendChild(textCol).className = "col-lg-7 m-3";
 

@@ -64,16 +64,26 @@
 
 <div id="main" class="container col-lg-6">
 
-  <div class="container m-1">  
-    <div class="dropdown my-5">  
+  <div class="row container m-1">  
+    <div class="dropdown my-5 mx-2">  
         <button type="button" class="btn btn-outline-dark dropdown-toggle" data-toggle="dropdown">  
             Temática
         </button>  
         <div class="dropdown-menu">  
-            <a class="dropdown-item" onclick="filter_blogs('all', 'Todos los blogs')"> Todo </a>  
-            <a class="dropdown-item" onclick="filter_blogs('proyecto', 'Recicla%2b')"> Recicla+ </a>  
-            <a class="dropdown-item" href="#"> Educación Ambiental </a> 
+            <a class="dropdown-item cursor-pointer" onclick="filter_blogs('all', 'Todos los blogs')"> Todo </a>  
+            <a class="dropdown-item cursor-pointer" onclick="filter_blogs('proyecto', 'Recicla%2b')"> Recicla+ </a>  
+            <a class="dropdown-item cursor-pointer" href="#"> Educación Ambiental </a> 
         </div>  
+      </div> 
+      <div class="dropdown my-5 mx-2"> 
+        <button type="button" class="btn btn-outline-dark dropdown-toggle" data-toggle="dropdown">  
+          Fecha
+      </button>  
+      <div class="dropdown-menu">
+          <a class="dropdown-item cursor-pointer" onclick="filter_blogs('02-2021', 'Febrero 2021')"> Febrero 2021 </a>  
+          <a class="dropdown-item cursor-pointer" onclick="filter_blogs('01-2021', 'Enero 2021')"> Enero 2021 </a>  
+          <a class="dropdown-item cursor-pointer" onclick="filter_blogs('12-2020', 'Diciembre 2020')"> Diciembre 2020 </a>  
+      </div>  
     </div>  
   </div>
 
