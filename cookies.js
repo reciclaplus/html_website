@@ -14,8 +14,6 @@ function getCookie(cname) {
     return "";
   }
 
-console.log(document.cookie)
-
 if (getCookie("hasConsent") == "true"){
 
 }
@@ -38,5 +36,5 @@ else{
         }
         });
     
-document.cookie = "hasConsent=true;SameSite=Lax;"
+document.cookie = "hasConsent=true;SameSite=Lax;Max-Age=2600000"
 }
