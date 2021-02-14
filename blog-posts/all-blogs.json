@@ -1,24 +1,10 @@
 {
     "blogs": [
       {
-        "title": "Economia circular",
-        "summary": "¿Qué es la economía circular? En este post te damos una pequeña introducción.",
-        "year": "2021",
-        "month": "01",
-        "filename": "economia-circular",
-        "img": "blog-posts/2021/01/economia-circular/economia-circular.png",
-        "tags": [
-          "cambio-climatico"
-        ],
-        "tagsLabels": [
-          "Cambio Climático"
-        ]
-      },
-      {
         "title": "Bienvenidos a R+",
-        "summary": "El próximo 9 de febrero llegarán a Sabana Yegua 3 voluntarios y voluntarias para dedicarse a tiempo completo al proyecto. ¡Descubre qué se traen entre manos!",
+        "summary": "El pasado 9 de febrero llegaron a Sabana Yegua 3 voluntarios y voluntarias para dedicarse a tiempo completo al proyecto. ¡Descubre cómo y por qué se inició Recicla+!",
         "year": "2021",
-        "month": "01",
+        "month": "02",
         "filename": "bienvenidos",
         "img": "blog-posts/2021/01/bienvenidos/voluntarios.jpg",
         "tags": [

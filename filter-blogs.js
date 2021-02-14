@@ -17,8 +17,8 @@ function create_element() {
         heading.innerHTML = post.title;
 
         for (tag of post.tagsLabels){
-            var tagElement = document.createElement("button");
-            textCol.appendChild(tagElement).className = "btn btn-outline-secondary my-2 mr-1";
+            var tagElement = document.createElement("p");
+            textCol.appendChild(tagElement).className = "d-inline-block mb-2 text-success";
             tagElement.innerHTML = tag;
         }
         console.log(textCol.appendChild(tagElement).className)
