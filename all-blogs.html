@@ -24,45 +24,48 @@
 
   <!-- Nav Bar with Image and text -->
   <!-- Nav Bar with Image and text -->
-<nav class="navbar navbar-expand-md fixed-top navbar-light" id="topbar">
-  <a class="navbar-brand" href="index.html">
-    <img id="logo-home" src="fotos/logo.png" height="60" alt="" loading="lazy">
-  </a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarCollapse">
-    <ul class="navbar-nav ml-auto">
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle navbar-menu" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Recogida municipal
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="sabana-yegua.html" >Sabana Yegua</a>
-          <a class="dropdown-item" href="#">Proyecto 4 <img src="fotos/ComingSoon-text2.gif"  height="30"></a>
-        </div>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link navbar-menu" href="empresas.html">Empresas</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link navbar-menu" href="escuelas.html">Escuelas</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link navbar-menu" href="capacitaciones.html">Capacitaciones</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link navbar-menu" href="colaboradores.html">Colaboradores</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link navbar-menu" href="about.html">Qué es R+?</a>
-      </li>
-      <li class="nav-item nav-item-highlight">
-        <a class="nav-link navbar-menu" href="blog.html">Blog</a>
-      </li>
-    </ul>
-  </div>
-</nav>
+  <nav class="navbar navbar-expand-lg fixed-top navbar-light" id="topbar">
+    <a class="navbar-brand" href="index.html">
+      <img id="logo-home" src="fotos/logo.png" height="60" alt="" loading="lazy">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link navbar-menu" href="about.html">Sobre R+</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle navbar-menu" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Recogida municipal
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="sabana-yegua.html" >Sabana Yegua</a>
+            <a class="dropdown-item" href="#">Proyecto 4 <img src="fotos/ComingSoon-text2.gif"  height="30"></a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link navbar-menu" href="empresas.html">Empresas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link navbar-menu" href="escuelas.html">Escuelas</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle navbar-menu" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Educación Ambiental
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="capacitaciones.html" >Capacitaciones y talleres</a>
+            <a class="dropdown-item" href="eventos.html">Eventos</a>
+          </div>
+        </li>
+        <li class="nav-item nav-item-highlight">
+          <a class="nav-link navbar-menu" href="blog.html">Blog</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 
 
 <div class="container page-header">
@@ -83,7 +86,7 @@
             <a class="dropdown-item cursor-pointer" onclick="filter_blogs('proyecto', 'Recicla%2b')">Recicla+</a>
             <a class="dropdown-item cursor-pointer" onclick="filter_blogs('sostenibilidad', 'Sostenibilidad')">Sostenibilidad</a>
             <a class="dropdown-item cursor-pointer" onclick="filter_blogs('educacion-ambiental', 'Educación Ambiental')">Educación Ambiental</a>
-            <a class="p-2 text-muted cursor-pointer" onclick="filter_blogs('historias', 'Historias')">Historias</a>
+            <a class="dropdown-item cursor-pointer" onclick="filter_blogs('historias', 'Historias')">Historias</a>
             <a class="dropdown-item cursor-pointer" onclick="filter_blogs('republica-dominicana', 'República Dominicana')">República Dominicana</a>
             <a class="dropdown-item cursor-pointer" onclick="filter_blogs('internacional', 'Internacional')">Internacional</a>
             <a class="dropdown-item cursor-pointer" onclick="filter_blogs('ecoconsejos', 'EcoConsejos')">EcoConsejos</a>
