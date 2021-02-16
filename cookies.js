@@ -15,7 +15,6 @@ function getCookie(cname) {
   }
 
 if (getCookie("hasConsent") == "true"){
-
 }
 else{
     window.cookieconsent.initialise({
@@ -31,10 +30,10 @@ else{
         "content": {
             "message": "El sitio web reciclaplus.com utiliza cookies propias y de terceros para recopilar\n\ninformación con finalidades técnicas, analíticas y publicitarias.\n\nEncontrará más información en nuestra Política de Cookies.",
             "dismiss": "Aceptar",
-            "link": "Leer más",
-            "href": "https://nuevoscaminos.org/es/lopd/politica-de-cookies/"
+            "link": "Modificar la configuración",
+            "href": "politica-cookies.html"
         }
         });
     
-document.cookie = "hasConsent=true;SameSite=Lax;Max-Age=2600000"
+document.cookie = "hasConsent=true;Max-Age=2600000"
 }
