@@ -1,6 +1,6 @@
 function create_element() {
 
-    var url = "https://reciclaplus.github.io/blog-posts/all-blogs.json"
+    var url = "https://reciclaplus.com/blog-posts/all-blogs.json"
     fetch(url)
     .then(response => response.json())
     .then(data => {
