@@ -13,6 +13,21 @@
         "tagsLabels": [
           "Recicla+"
         ]
+      },
+      {
+        "title": "Primera semana en Sabana Yegua",
+        "summary": "Solo llevamos una semana en el pueblo, pero nos sentimos como en casa.",
+        "year": "2021",
+        "month": "02",
+        "filename": "primera-semana",
+        "img": "blog-posts/2021/02/primera-semana/marleni.jpg",
+        "tags": [
+          "proyecto"
+
+        ],
+        "tagsLabels": [
+          "Recicla+"
+        ]
       }
     ]
   }
