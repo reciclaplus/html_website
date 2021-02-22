@@ -28,6 +28,21 @@
         "tagsLabels": [
           "Recicla+"
         ]
+      },
+      {
+        "title": "Agustín, Manolo y Nini",
+        "summary": "Conoce a Agustín, Manolo y Nini y desubre como nos ayudan en el proyecto Recicla+",
+        "year": "2021",
+        "month": "02",
+        "filename": "nini-manolo-agustin",
+        "img": "blog-posts/2021/02/nini-manolo-agustin/2.jpg",
+        "tags": [
+          "proyecto"
+
+        ],
+        "tagsLabels": [
+          "Recicla+"
+        ]
       }
     ]
   }
