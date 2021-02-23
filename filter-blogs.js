@@ -1,7 +1,12 @@
 function create_element() {
     console.log(window.location.href)
-    
-    var url = "http://reciclaplus.com/blog-posts/all-blogs.json"
+    if (window.location.href.startsWith("https:")) {    
+        var url = "https://reciclaplus.com/blog-posts/all-blogs.json"
+    }
+    else {
+        var url = "http://reciclaplus.com/blog-posts/all-blogs.json"
+    }
+
     fetch(url)
     .then(response => response.json())
     .then(data => {
