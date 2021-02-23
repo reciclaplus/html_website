@@ -1,6 +1,7 @@
 function create_element() {
-
-    var url = "reciclaplus.com/blog-posts/all-blogs.json"
+    console.log(window.location.href)
+    
+    var url = "http://reciclaplus.com/blog-posts/all-blogs.json"
     fetch(url)
     .then(response => response.json())
     .then(data => {
