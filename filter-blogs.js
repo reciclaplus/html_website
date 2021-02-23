@@ -1,6 +1,6 @@
 function create_element() {
 
-    var url = "https://reciclaplus.com/blog-posts/all-blogs.json"
+    var url = "http://reciclaplus.com/blog-posts/all-blogs.json"
     fetch(url)
     .then(response => response.json())
     .then(data => {
@@ -21,7 +21,6 @@ function create_element() {
             textCol.appendChild(tagElement).className = "d-inline-block mb-2 text-success";
             tagElement.innerHTML = tag;
         }
-        console.log(textCol.appendChild(tagElement).className)
         var text = document.createElement("p");
         textCol.appendChild(text);
         text.innerHTML = post.summary;
@@ -65,7 +64,6 @@ function filter_blog_posts (selection) {
                 
             }
             else{
-                console.log(post)
                 post.style.display = "none"
             }
         }
