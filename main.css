@@ -163,7 +163,7 @@ strong {
 .featurette-heading {
   line-height: 1;
   letter-spacing: -.05rem;
-  font-size: 48px;
+  font-size: 40px;
 }
 
 .featurette img {
@@ -172,7 +172,6 @@ strong {
   margin-right: auto;
   width: 250px;
 }
-
 
 .row-empresas {
   padding: 3em;
