@@ -1,6 +1,6 @@
-var blog_1 = "nini-manolo-agustin"
-var blog_2 = "primera-semana"
-var blog_3 = "bienvenidos"
+var blog_1 = "8m"
+var blog_2 = "nini-manolo-agustin"
+var blog_3 = "primera-semana"
 
 if (window.location.href.startsWith("https:")) {    
     var url = "https://reciclaplus.com/blog-posts/all-blogs.json"
