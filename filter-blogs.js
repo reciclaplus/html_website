@@ -22,11 +22,10 @@ function create_element() {
         textCol.appendChild(heading);
         heading.innerHTML = post.title;
 
-        for (tag of post.tagsLabels){
-            var tagElement = document.createElement("p");
-            textCol.appendChild(tagElement).className = "d-inline-block mb-2 text-success";
-            tagElement.innerHTML = tag;
-        }
+        var tagElement = document.createElement("p");
+        textCol.appendChild(tagElement).className = "d-inline-block mb-2 text-success";
+        tagElement.innerHTML = post.tagsLabels.join(" | ");
+
         var text = document.createElement("p");
         textCol.appendChild(text);
         text.innerHTML = post.summary;
