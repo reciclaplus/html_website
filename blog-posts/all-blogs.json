@@ -76,6 +76,21 @@
         "tagsLabels": [
           "Historias", "República Dominicana"
         ]
+      },
+      {
+        "title": "Economía Circular",
+        "summary": "La economía circular es un enfoque de vida, donde todo tiene valor y nada se desperdicia.",
+        "year": "2021",
+        "month": "04",
+        "date":"14 de Abril de 2021",
+        "filename": "economia-circular",
+        "img": "blog-posts/2021/04/economia-circular/economia-circular.png",
+        "tags": [
+          "sostenibilidad", "educacion-ambiental"
+        ],
+        "tagsLabels": [
+          "Sostenibilidad", "Educación Ambiental"
+        ]
       }
     ]
   }

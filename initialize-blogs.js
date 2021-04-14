@@ -1,5 +1,5 @@
-var blog_1 = "dia-mundial-agua"
-var blog_2 = "8m"
+var blog_1 = "economia-circular"
+var blog_2 = "dia-mundial-agua"
 var blog_3 = "nini-manolo-agustin"
 
 if (window.location.href.startsWith("https:")) {    
