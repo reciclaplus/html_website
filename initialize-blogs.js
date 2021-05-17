@@ -1,6 +1,6 @@
-var blog_1 = "economia-circular"
-var blog_2 = "dia-mundial-agua"
-var blog_3 = "nini-manolo-agustin"
+var blog_1 = "increibles"
+var blog_2 = "economia-circular"
+var blog_3 = "dia-mundial-agua"
 
 if (window.location.href.startsWith("https:")) {    
     var url = "https://reciclaplus.com/blog-posts/all-blogs.json"

@@ -91,6 +91,21 @@
         "tagsLabels": [
           "Sostenibilidad", "Educación Ambiental"
         ]
+      },
+      {
+        "title": "Nunca es tarde para empezar a reciclar",
+        "summary": "Cambiar el mundo a los 90 es posible. Así lo aprendimos nada más llegar a Sabana Yegua (República Dominicana). Conoce la historia de Maisí y Maria con el proyecto Recicla+.",
+        "year": "2021",
+        "month": "05",
+        "date":"17 de Mayo de 2021",
+        "filename": "increibles",
+        "img": "blog-posts/2021/05/increibles/increibles.jpg",
+        "tags": [
+          "sostenibilidad", "internacional"
+        ],
+        "tagsLabels": [
+          "Sostenibilidad", "Internacional"
+        ]
       }
     ]
   }
