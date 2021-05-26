@@ -19,6 +19,10 @@ h1, h2, h3, h4, h5, h6 {
   color: #0db872;
 }
 
+.text-black {
+  color: black;
+}
+
 .page-header {
   background-color: white;
   color: #343a40;
@@ -284,6 +288,7 @@ strong {
 .display-4 {
   font-size: 2.5rem;
 }
+
 @media (min-width: 768px) {
   .display-4 {
     font-size: 3rem;
@@ -400,4 +405,27 @@ strong {
 
 table, th, td {
   border: 1px solid black;
+}
+
+/* 
+
+Gallery
+
+*/
+
+.faded-background {
+  background-color: rgba(255, 255, 255, .7);
+}
+
+@media (max-width: 768px) {
+  .gallery-image {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .gallery-image {
+    height: 100%;
+    margin: auto;
+  }
 }
