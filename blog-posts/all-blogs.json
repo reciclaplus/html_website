@@ -106,6 +106,21 @@
         "tagsLabels": [
           "Sostenibilidad", "Internacional"
         ]
+      },
+      {
+        "title": "Crónica de una bicicleta+",
+        "summary": "La historia de nuestras Bicicletas+ viene de lejos. Conoce el camino y resultado de nuestra creación!",
+        "year": "2021",
+        "month": "05",
+        "date":"30 de Mayo de 2021",
+        "filename": "bicicletes",
+        "img": "blog-posts/2021/05/bicicletes/bici-1.jpg",
+        "tags": [
+          "proyecto"
+        ],
+        "tagsLabels": [
+          "Recicla+"
+        ]
       }
     ]
   }
