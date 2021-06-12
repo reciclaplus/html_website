@@ -121,6 +121,21 @@
         "tagsLabels": [
           "Recicla+"
         ]
+      },
+      {
+        "title": "Nuevo prototipo de zafacones para los plásticos",
+        "summary": "Lanzamos nuevo prototipo de zafacones para los plásticos, con un diseño más moderno. ¡Descubre todas sus ventajas!",
+        "year": "2021",
+        "month": "06",
+        "date":"12 de Junio de 2021",
+        "filename": "zafacones",
+        "img": "blog-posts/2021/06/zafacones/amancia.jpg",
+        "tags": [
+          "proyecto"
+        ],
+        "tagsLabels": [
+          "Recicla+"
+        ]
       }
     ]
   }
