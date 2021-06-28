@@ -428,9 +428,9 @@ Gallery
     height: 100%;
     margin: auto;
   }
+  #carouselGallery {
+    width: 100%;
+    height: 100%;
+  }
 }
 
-#carouselGallery {
-  height: 100%;
-  width: 100%;
-}
