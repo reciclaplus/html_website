@@ -151,6 +151,21 @@
         "tagsLabels": [
           "Historias"
         ]
+      },
+      {
+        "title": "¿Qué son los ODS?",
+        "summary": "Los Objetivos de Desarrollo Sostenible son una iniciativa diseñada en 2015, impulsada por las Naciones Unidas. ¡Descubre aquí como los abordamos en Recicla+! ",
+        "year": "2021",
+        "month": "07",
+        "date":"27 de Julio de 2021",
+        "filename": "ods",
+        "img": "blog-posts/2021/07/ods/ods.jpg",
+        "tags": [
+          "internacional", "sostenibilidad"
+        ],
+        "tagsLabels": [
+          "Internacional", "sostenibilidad"
+        ]
       }
     ]
   }
