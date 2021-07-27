@@ -1,6 +1,6 @@
-var blog_1 = "bili"
-var blog_2 = "zafacones"
-var blog_3 = "bicicletes"
+var blog_1 = "ods"
+var blog_2 = "bili"
+var blog_3 = "zafacones"
 
 if (window.location.href.startsWith("https:")) {    
     var url = "https://reciclaplus.com/blog-posts/all-blogs.json"
